@@ -11,5 +11,3 @@
 5. Открой mainmenu, вкладку Game, нажми Play (Pause выключена).
 6. Проверь Console: Unity Remote connected to input! Затем Input Debugger -> Devices: должен появиться Touchscreen.
 7. Проверь PLAY, джойстик, JUMP и FIRE пальцами.
-
-Если не работает, пришли сообщения Console со словами Remote compatibility и список Devices. Обходной обработчик использует внутренний API Unity и не был запущен здесь: Unity отсутствует в среде подготовки. Это не подтверждённое на устройстве исправление. В сборки Windows/Web/iOS этот Editor-скрипт не включается.
