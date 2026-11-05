@@ -1,0 +1,64 @@
+SKIP C# syntax parser: install tree-sitter and tree-sitter-c-sharp to enable it.
+PASS Required Input System, URP and uGUI packages declared
+PASS All asset GUIDs unique
+PASS Every asset and directory has a meta file
+PASS mainmenu exists and is listed for build
+PASS level1 exists and is listed for build
+PASS level2 exists and is listed for build
+PASS bosslevel exists and is listed for build
+PASS win exists and is listed for build
+PASS level1 portal leads to level2
+PASS level2 portal leads to bosslevel
+PASS Ground layer is index 6, matching uploaded ground masks
+PASS UI resource exists: Sky
+PASS UI resource exists: Hills
+PASS UI resource exists: Ground
+PASS UI resource exists: Heart
+PASS UI resource exists: Circle
+PASS UI resource exists: ExplorerIdle
+PASS UI resource exists: ExplorerRun
+PASS UI font asset exists
+PASS Original script identity retained: PlayerController
+PASS Original script identity retained: PlayerShooter
+PASS Original script identity retained: Health
+PASS Original script identity retained: MainMenu
+PASS Original script identity retained: LevelManager
+PASS Original script identity retained: Boss
+PASS 16:9: menu, win and pause cards fit representative safe rectangle
+PASS 16:9: stick fits safe rectangle
+PASS 16:9: jump fits safe rectangle
+PASS 16:9: fire fits safe rectangle
+PASS 16:9: health fits safe rectangle
+PASS 16:9: coins fits safe rectangle
+PASS 16:9: pause fits safe rectangle
+PASS 16:9: stick and jump do not overlap
+PASS 16:9: stick and fire do not overlap
+PASS 16:9: jump and fire do not overlap
+PASS 16:9: health and coins do not overlap
+PASS 16:9: coins and pause do not overlap
+PASS notch: menu, win and pause cards fit representative safe rectangle
+PASS notch: stick fits safe rectangle
+PASS notch: jump fits safe rectangle
+PASS notch: fire fits safe rectangle
+PASS notch: health fits safe rectangle
+PASS notch: coins fits safe rectangle
+PASS notch: pause fits safe rectangle
+PASS notch: stick and jump do not overlap
+PASS notch: stick and fire do not overlap
+PASS notch: jump and fire do not overlap
+PASS notch: health and coins do not overlap
+PASS notch: coins and pause do not overlap
+PASS tablet: menu, win and pause cards fit representative safe rectangle
+PASS tablet: stick fits safe rectangle
+PASS tablet: jump fits safe rectangle
+PASS tablet: fire fits safe rectangle
+PASS tablet: health fits safe rectangle
+PASS tablet: coins fits safe rectangle
+PASS tablet: pause fits safe rectangle
+PASS tablet: stick and jump do not overlap
+PASS tablet: stick and fire do not overlap
+PASS tablet: jump and fire do not overlap
+PASS tablet: health and coins do not overlap
+PASS tablet: coins and pause do not overlap
+
+61 checks passed. Unity compilation and real-device play tests are still required.

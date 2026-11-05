@@ -1,0 +1,48 @@
+AI ASSISTANCE DISCLOSURE
+Date: 2026-10-28
+
+User-reported previous assistance:
+The student stated that the existing game had been written with Claude.
+The precise earlier prompts, amount of generated code and dates were not supplied.
+
+ChatGPT / Codex assistance in this conversation:
+- Read the assignment and lecture and explained requirements in Russian.
+- Inspected the student's supplied Assets.zip and updated Assets(1).zip.
+- Diagnosed possible virtual-gamepad/UI input issues by static inspection.
+- At the student's explicit request, directly wrote/modified project code:
+  PlayerController, PlayerShooter, SafeAreaPanel, TouchStick, TouchActionButton,
+  MobileGameUI, MobileProjectSetup; modified Health death routing and Boss texture rectangle;
+  corrected keyboard action composites; added project/package settings and UI resources.
+- Drafted the GDD PDF, README, setup instructions, Git workflow, test checklist,
+  validation report and English video speaking aid.
+- Used static syntax/reference/layout checks. Did not run Unity, build an APK,
+  test a physical phone, record a video or create student-account GitHub history.
+
+IMPORTANT COURSEWORK LIMIT:
+The provided assignment permits a learning chat but explicitly prohibits AI agents
+that write code inside the project. Codex directly modified this project, so this
+version does not comply with that specific restriction. This disclosure does not
+waive the rule. It must not be presented as unaided work or a compliant AI-only chat.
+The proportion of copied/generated code has not been calculated or certified.
+
+The student should understand, review and test every submitted system and follow
+the instructor's requirements. No commits, test results, screenshots or authorship
+claims have been fabricated.
+
+2026-10-29: Codex added iOS Xcode export and Web build commands, a Safari-oriented
+Web template, a LAN preview server and platform instructions at the student request.
+No compiled Web build, iOS export, signed IPA or publication was performed.
+
+2026-10-29 UI and startup revision: Codex rewrote serialized UI button routing,
+centralized scene loading, separated settings from the menu, refined HUD geometry,
+added an existing-asset explorer skin and unlit rendering, Windows build command,
+and updated Unity/Input System/URP version targets for 6000.6.2f1.
+No local Unity compilation or device validation was possible.
+
+2026-10-29: Added editor-only automatic Unity Remote compatibility shim using the installed Input System parser and the GenericRemoteModule API. Source reviewed only; not run in Unity.
+
+2026-10-29 audio update: Codex wired original uploaded jump/coin/hurt/music WAVs
+using Resources fallback, persistent singleton music and scene initialization.
+Validated nonzero WAV samples and structural checks; no Unity playback test.
+
+2026-11-05: GitHub connector used to import student-provided Assets and prepared project settings, document submission requirements, create present-day commits and a feature PR. No past history or device-test evidence fabricated.
