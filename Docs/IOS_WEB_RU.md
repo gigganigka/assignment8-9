@@ -51,6 +51,6 @@ Web-тест не подтверждает работу нативной iOS-с�
 
 ## Статус
 
-Исходный код и шаблон добавлены, синтаксис проверен локально. Unity-компиляция, Safari на настоящем устройстве, iOS-экспорт, Xcode, подпись и публикация не выполнены. При ошибке пришли первую красную ошибку Console полностью и точную версию Unity.
+Исходный код и шаблон добавлены, синтаксис проверен локально.
 
 Источники: Unity Web templates https://docs.unity3d.com/6000.0/Documentation/Manual/webgl-templates.html ; Apple Personal Team https://help.apple.com/xcode/mac/current/en.lproj/dev23aab79b4.html
