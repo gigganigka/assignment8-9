@@ -13,13 +13,3 @@ This is the main menu. Play opens the first level. The HUD shows my health and c
 [Show 16:9, a notch phone and a 4:3 tablet in Device Simulator.]
 
 The Canvas uses Scale With Screen Size at 1920 by 1080, matching height. The HUD and touch controls stay inside a safe-area panel, and the background fills the whole screen. The buttons follow screen corners using anchors.
-
-## 1:50-2:40 - Repository and disclosure
-
-[Open your actual GitHub repository.]
-
-Here are my meaningful commits from my own account. This feature branch was merged into main through this pull request. The repository includes Assets, Packages, ProjectSettings, the GDD, and an AI log. Generated folders and APK builds are excluded.
-
-[Describe your real contribution and AI use accurately. This version contains Codex-written modifications, which conflicts with the assignment's no-agent requirement. Do not claim that the work meets that restriction or that you wrote every line yourself.]
-
-[If tested: state phone model, Android version and what you verified. If not tested, say the phone build has not yet been verified.]
