@@ -4,7 +4,7 @@ Record an actual Unity/phone demonstration. Replace or remove any sentence that 
 
 ## 0:00-0:50 - GDD
 
-My game is called Coinbound. It is a two-dimensional platformer for Android, played in landscape mode. The core loop is to move, jump, collect coins, and reach the portal. The game has two platforming levels and a final boss arena. The minimum playable version includes movement, jumping, shooting, health, coins, scene transitions, and a complete mobile interface. I excluded multiplayer, an open world, an inventory system, and procedural levels to keep the scope manageable. My weekly plan covers mobile UI, enemy behaviour, content and saving, audio, and visual polish.
+My game is called Coinbound. It is a two-dimensional platformer for IOS, played in landscape mode. The core loop is to move, jump, collect coins, and reach the portal. The game has two platforming levels and a final boss arena. The minimum playable version includes movement, jumping, shooting, health, coins, scene transitions, and a complete mobile interface. I excluded multiplayer, an open world, an inventory system, and procedural levels to keep the scope manageable. My weekly plan covers mobile UI, enemy behaviour, content and saving, audio, and visual polish.
 
 ## 0:50-1:50 - Interface
 
