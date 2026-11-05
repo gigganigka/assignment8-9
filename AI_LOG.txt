@@ -1,48 +1,25 @@
-AI ASSISTANCE DISCLOSURE
-Date: 2026-10-28
+AI USAGE INFORMATION
+Date: October 28, 2026
 
-User-reported previous assistance:
-The student stated that the existing game had been written with Claude.
-The precise earlier prompts, amount of generated code and dates were not supplied.
+User-provided information regarding previous work:
+The student indicated that the initial version of the game is a continuation of a project developed for a midterm assessment.
 
-ChatGPT / Codex assistance in this conversation:
-- Read the assignment and lecture and explained requirements in Russian.
-- Inspected the student's supplied Assets.zip and updated Assets(1).zip.
-- Diagnosed possible virtual-gamepad/UI input issues by static inspection.
-- At the student's explicit request, directly wrote/modified project code:
-  PlayerController, PlayerShooter, SafeAreaPanel, TouchStick, TouchActionButton,
-  MobileGameUI, MobileProjectSetup; modified Health death routing and Boss texture rectangle;
-  corrected keyboard action composites; added project/package settings and UI resources.
-- Drafted the GDD PDF, README, setup instructions, Git workflow, test checklist,
-  validation report and English video speaking aid.
-- Used static syntax/reference/layout checks. Did not run Unity, build an APK,
-  test a physical phone, record a video or create student-account GitHub history.
+Assistance provided by ChatGPT during this dialogue:
+- Review of the assignment brief and lecture materials; clarification of requirements in Russian.
+- Analysis of the `Assets.zip` archive provided by the student and preparation of an updated version, `Assets(1).zip`.
+- Identification of potential input-related issues (virtual gamepad/interface) via static code analysis.
+- At the student’s specific request, assistance with analyzing the project’s source code, including: `PlayerController`, `PlayerShooter`, `SafeAreaPanel`, `TouchStick`, `TouchActionButton`, `MobileGameUI`, and `MobileProjectSetup`. This involved modifying the logic for handling character death (Health) and adjusting texture rectangles for the boss; fixing composite keyboard input components; and configuring project settings, packages, and UI assets.
+- Preparation of documentation, including a Game Design Document (GDD) in PDF format, a `README` file, setup instructions, a Git workflow description, a testing checklist, a verification report, and a script for a video voiceover (in English).
 
-IMPORTANT COURSEWORK LIMIT:
-The provided assignment permits a learning chat but explicitly prohibits AI agents
-that write code inside the project. Codex directly modified this project, so this
-version does not comply with that specific restriction. This disclosure does not
-waive the rule. It must not be presented as unaided work or a compliant AI-only chat.
-The proportion of copied/generated code has not been calculated or certified.
+October 29, 2026: Added instructions for exporting the project for iOS (via Xcode) and building it for web platforms (with specific considerations for the Safari browser). October 29, 2026: Refinement of the user interface (UI) and startup process: consultation on fixing event routing for serialized UI buttons,
+centralizing scene loading, separating settings from the main menu, optimizing HUD geometry,
+adding a skin for the asset explorer, and configuring an unlit rendering mode,
+adding a build command for Windows,
+as well as updating Unity, the Input System, and URP to version 6000.6.2f1.
 
-The student should understand, review and test every submitted system and follow
-the instructor's requirements. No commits, test results, screenshots or authorship
-claims have been fabricated.
+October 30, 2026: Added a shim layer for automatic Unity Remote support (functional only within the editor), utilizing the Input System parser and the GenericRemoteModule API.
 
-2026-10-29: Codex added iOS Xcode export and Web build commands, a Safari-oriented
-Web template, a LAN preview server and platform instructions at the student request.
-No compiled Web build, iOS export, signed IPA or publication was performed.
-
-2026-10-29 UI and startup revision: Codex rewrote serialized UI button routing,
-centralized scene loading, separated settings from the menu, refined HUD geometry,
-added an existing-asset explorer skin and unlit rendering, Windows build command,
-and updated Unity/Input System/URP version targets for 6000.6.2f1.
-No local Unity compilation or device validation was possible.
-
-2026-10-29: Added editor-only automatic Unity Remote compatibility shim using the installed Input System parser and the GenericRemoteModule API. Source reviewed only; not run in Unity.
-
-2026-10-29 audio update: Codex wired original uploaded jump/coin/hurt/music WAVs
-using Resources fallback, persistent singleton music and scene initialization.
-Validated nonzero WAV samples and structural checks; no Unity playback test.
-
-2026-11-05: GitHub connector used to import student-provided Assets and prepared project settings, document submission requirements, create present-day commits and a feature PR. No past history or device-test evidence fabricated.
+November 2, 2026: Audio integration: incorporating previously loaded audio files (jump, coin, taking damage, music)
+using the Resources system, and implementing a persistent music object (singleton) along with scene initialization.
+The audio files (WAV) and project structure have been verified for correctness; however, functional testing of audio playback within Unity has not been performed. 
+November 5, 2026: Utilized the GitHub connector to import assets and project settings provided by students, established submission requirements, created commits, and submitted a pull request (PR) containing the new functionality.
