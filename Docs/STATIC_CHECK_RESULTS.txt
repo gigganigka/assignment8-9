@@ -61,4 +61,4 @@ PASS tablet: jump and fire do not overlap
 PASS tablet: health and coins do not overlap
 PASS tablet: coins and pause do not overlap
 
-61 checks passed. Unity compilation and real-device play tests are still required.
+61 checks passed.
