@@ -58,7 +58,7 @@ public sealed class MobileGameUI : MonoBehaviour
     }
     public static bool IsGameScene(string name)
     {
-        return name == SceneNames.MainMenu || name == SceneNames.Level1 ||
+        return name == SceneNames.EnemyLab || name == SceneNames.MainMenu || name == SceneNames.Level1 ||
                name == SceneNames.Level2 || name == SceneNames.Boss || name == SceneNames.Win;
     }
     public static MobileGameUI Install(Scene scene)
@@ -161,7 +161,7 @@ public sealed class MobileGameUI : MonoBehaviour
         menu.hpSlider = menu.cooldownSlider = null;
         menu.hazardsToggle = menu.enemiesToggle = null;
         menu.hpText = menu.cooldownText = null;
-        menu.firstLevelName = SceneNames.Level1;
+        menu.firstLevelName = SceneNames.EnemyLab;
         Image card = Box("MenuCard", safe, Ink);
         menuCard = card.gameObject;
         Place(card.rectTransform, Center, Vector2.zero, new Vector2(1120, 860));

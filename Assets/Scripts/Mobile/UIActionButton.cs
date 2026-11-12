@@ -25,7 +25,7 @@ public sealed class UIActionButton : MonoBehaviour
                 MainMenu menu = Object.FindFirstObjectByType<MainMenu>();
                 if (menu != null) menu.Play(); else GameScenes.Load(SceneNames.Level1);
                 break;
-            case Command.Replay: GameScenes.Load(SceneNames.Level1); break;
+            case Command.Replay: GameScenes.Load(SceneNames.EnemyLab); break;
             case Command.Menu: GameScenes.Load(SceneNames.MainMenu); break;
             case Command.Restart: if (ui != null) ui.Restart(); break;
             case Command.Pause: if (ui != null) ui.SetPaused(true); break;

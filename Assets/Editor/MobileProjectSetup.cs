@@ -13,7 +13,7 @@ using UnityEngine.SceneManagement;
 public static class MobileProjectSetup
 {
     static readonly string[] ScenePaths = {
-        "Assets/mainmenu.unity", "Assets/level1.unity", "Assets/level2.unity",
+        "Assets/mainmenu.unity", "Assets/enemy_lab.unity", "Assets/level1.unity", "Assets/level2.unity",
         "Assets/bosslevel.unity", "Assets/win.unity"
     };
 

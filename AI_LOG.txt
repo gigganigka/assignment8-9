@@ -23,3 +23,8 @@ November 2, 2026: Audio integration: incorporating previously loaded audio files
 using the Resources system, and implementing a persistent music object (singleton) along with scene initialization.
 The audio files (WAV) and project structure have been verified for correctness; however, functional testing of audio playback within Unity has not been performed. 
 November 5, 2026: Utilized the GitHub connector to import assets and project settings provided by students, established submission requirements, created commits, and submitted a pull request (PR) containing the new functionality.
+
+2026-11-12 Assignment 10: Codex implemented separate enemy state machines, perception,
+waypoint motion, telegraphed attacks, enemy shots, tuning assets, encounter scene,
+script map and empty playtest templates. Assignment 10 explicitly permits agents.
+Unity compilation, device tests, two-person playtests and tuning outcomes are not claimed.
