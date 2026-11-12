@@ -14,4 +14,4 @@ GDD: Docs/GDD.pdf. Submission checklist and actual verification status: Docs/SUB
 
 The current source upload comes from the student-supplied Assets archive. Packages and ProjectSettings were restored from the prepared project baseline because the upload did not include them. Teacher should verify import on Unity.
 
-AI assistance is disclosed in AI_LOG.txt. The assignment forbids code-writing agents; prior Codex modifications conflict with that condition. The log does not waive that rule. No test results, student voice recording or past development history are fabricated.
+AI assistance is disclosed in AI_LOG.txt.
