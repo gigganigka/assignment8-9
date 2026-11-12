@@ -3,6 +3,7 @@
 public static class SceneNames
 {
     public const string MainMenu = "mainmenu";   // файл сцены: Assets/mainmenu.unity
+    public const string EnemyLab = "enemy_lab";
     public const string Level1 = "level1";
     public const string Level2 = "level2";
     public const string Boss = "bosslevel";
