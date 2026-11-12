@@ -15,3 +15,7 @@ GDD: Docs/GDD.pdf. Submission checklist and actual verification status: Docs/SUB
 The current source upload comes from the student-supplied Assets archive. Packages and ProjectSettings were restored from the prepared project baseline because the upload did not include them. Teacher should verify import on Unity.
 
 AI assistance is disclosed in AI_LOG.txt. The assignment forbids code-writing agents; prior Codex modifications conflict with that condition. The log does not waive that rule. No test results, student voice recording or past development history are fabricated.
+
+## Assignment 10: Three enemy types
+
+New encounter: `enemy_lab`, started by Play before the original campaign. Read [setup and tuning](Docs/Assignment10/START_RU.md), [script map](Docs/Assignment10/SCRIPT_MAP.md), and [required playtest proof](Docs/Assignment10/PROOF_CHECKLIST.md). Three separate state machines and persistent tuning assets are included. Agent use is permitted for Assignment 10; see DECISIONS.md. Unity/device/playtest results are pending, not fabricated.
